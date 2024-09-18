@@ -1,0 +1,22 @@
+{
+  "name": "vue-store-tutorial",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"vite\" \"npm run start-server\"",
+    "start-server": "json-server --watch db.json --port 3002",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "pinia": "^2.1.4",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "concurrently": "^8.2.1",
+    "vite": "^4.4.6"
+  }
+}
